@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Large datasets
+data/raw/
+
+# System files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
